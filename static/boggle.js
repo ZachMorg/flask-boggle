@@ -7,15 +7,8 @@ class Boggle{
         $(".inputForm", this.board).on("submit", this.checkSubmission.bind(this));
         console.log(this.form);
         console.log(this.words);
-        this.testMethod();
     }
-
-    testMethod(){
-        console.log(this.form);
-    }
-
     
-
 
     async checkSubmission(evt){
         evt.preventDefault();
