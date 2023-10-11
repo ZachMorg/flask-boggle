@@ -1,0 +1,16 @@
+#boggle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.board{
+    font-weight: bolder;
+    font-size: 40px;
+    border-style: ridge;
+    border-width: 5px;
+}
+
+.board td{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
